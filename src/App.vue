@@ -1,14 +1,17 @@
 <template>
   <Header />
+  <StageSelect />
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import StageSelect from "./components/StageSelect.vue";
 
 export default {
   name: "App",
   components: {
-    Header
+    Header,
+    StageSelect
   }
 };
 </script>
@@ -23,7 +26,7 @@ body {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Press Start 2P", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
