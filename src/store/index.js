@@ -6,39 +6,39 @@ const store = createStore({
       mm2: {
         stages: [
           {
-            name: "Bubble Man",
+            name: "BUBBLE",
             stageIMG: "0px 0px"
           },
           {
-            name: "Air Man",
+            name: "AIR",
             stageIMG: "-105px 0px"
           },
           {
-            name: "Quick Man",
+            name: "QUICK",
             stageIMG: "-211px 0px"
           },
           {
-            name: "Heat Man",
-            stageIMG: "0px -104px"
+            name: "HEAT",
+            stageIMG: "0px -105px"
           },
           {
-            name: "Dr. Wily",
-            stageIMG: "-105px -104px"
+            name: "Dr.",
+            stageIMG: "-105px -105px"
           },
           {
-            name: "Wood Man",
-            stageIMG: "-211px -104px"
+            name: "WOOD",
+            stageIMG: "-211px -105px"
           },
           {
-            name: "Metal Man",
+            name: "METAL",
             stageIMG: "0px -209px"
           },
           {
-            name: "Flash Man",
+            name: "FLASH",
             stageIMG: "-105px -209px"
           },
           {
-            name: "Crash Man",
+            name: "CRASH",
             stageIMG: "-211px -209px"
           }
         ]
